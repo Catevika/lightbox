@@ -6,7 +6,7 @@ const ImageCard = ({ image }) => {
 	const tags = image.tags.split(',');
 	return (
 		<div className='card-container'>
-			<Link to={`/image/${image.id}`}>
+			<Link to={`${process.env.PUBLIC_URL}/image/${image.id}`}>
 				<img src={image.webformatURL} alt='' className='image' />
 			</Link>
 			<div className='details-container'>

@@ -12,6 +12,14 @@
 	height: 85vh;
 }
 
+@media only screen and (max-width: 768px) {
+	.image-max {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+}
+
 .close-button {
 	position: fixed;
 	top: 5rem;

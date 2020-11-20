@@ -9,7 +9,7 @@ const Navbar = () => {
 					<NavLink
 						exact
 						activeClassName='current'
-						to='/'
+						to={`${process.env.PUBLIC_URL}/`}
 						className='navbar-link'
 					>
 						Gallery
@@ -19,7 +19,7 @@ const Navbar = () => {
 					<NavLink
 						exact
 						activeClassName='current'
-						to='/about'
+						to={`${process.env.PUBLIC_URL}/about`}
 						className='navbar-link'
 					>
 						About
@@ -29,7 +29,7 @@ const Navbar = () => {
 					<NavLink
 						exact
 						activeClassName='current'
-						to='/contact'
+						to={`${process.env.PUBLIC_URL}/contact`}
 						className='navbar-link'
 					>
 						Contact

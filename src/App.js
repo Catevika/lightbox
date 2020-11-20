@@ -11,10 +11,22 @@ function App() {
 		<>
 			<Navbar />
 			<Switch>
-				<Route exact path='/' component={Gallery} />
-				<Route exact path='/about' component={About} />
-				<Route exact path='/contact' component={Contact} />
-				<Route exact path='/image/:id' component={ImageMax} />
+				<Route exact path={`${process.env.PUBLIC_URL}/`} component={Gallery} />
+				<Route
+					exact
+					path={`${process.env.PUBLIC_URL}/about`}
+					component={About}
+				/>
+				<Route
+					exact
+					path={`${process.env.PUBLIC_URL}/contact`}
+					component={Contact}
+				/>
+				<Route
+					exact
+					path={`${process.env.PUBLIC_URL}/image/:id`}
+					component={ImageMax}
+				/>
 			</Switch>
 		</>
 	);
