@@ -1,0 +1,27 @@
+.image-max-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.image-max {
+	margin-top: 4.5rem;
+	height: 85vh;
+}
+
+.close-button {
+	position: fixed;
+	top: 5rem;
+	left: 47.5%;
+	background-color: rgb(221, 179, 101);
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.4);
+	color: #f7f7f7;
+	border-radius: 50%;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	border: none;
+	font-size: 1.5rem;
+}

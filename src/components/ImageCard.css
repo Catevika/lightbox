@@ -1,0 +1,29 @@
+.card-container {
+	display: inline-table;
+	background-color: #f7f7f7;
+	border-radius: 1rem;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+	margin-bottom: 1rem;
+}
+
+.image {
+	width: 100%;
+	padding: 0.5rem;
+	border-radius: 1rem;
+}
+
+.author {
+	padding-left: 1rem;
+}
+
+.detail {
+	padding-left: 2rem;
+	list-style: none;
+}
+
+.tag-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1rem 0 0.5rem;
+}
