@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+## Pixabay Photo Search Gallery <!-- omit in toc -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Pixabay Photo Search Gallery screenshot](./src/assets\screenshot.png)
 
-## Available Scripts
+## Table of Content <!-- omit in toc -->
 
-In the project directory, you can run:
+- [About](#about)
+- [Features](#features)
+- [Tech used](#tech-used)
+- [How to use](#how-to-use)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
 
-### `npm start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Lightbox** is a <a href='https://pixabay.com/'> Pixabay</a> Photo Finder! All photos are free to download and use in personal or commercial projects
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+React App using hooks for search function and photo display
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- _Second complete project from scratch as a self-taught Front End Developer!_
 
-### `npm run build`
+Fully responsive
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- _mobile and desktop devices friendly_
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Main implemented features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- sticky navigation bar
+- search component
+- 'go back' button and functionalities
+- 'scroll-to-top' button
+- very simple animations for more fluent interactions
 
-### `npm run eject`
+Use of
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **React** library
+- **Responsive Design** Media Queries
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Languages** HTML5 - CSS3 - JSX React
+- **Code editor** [VSCode](https://code.visualstudio.com/)
+- **Version control** [Git](https://git-scm.com/)
+- **Markdown** --> my VSCode [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## How to use
 
-## Learn More
+Open **[Lightbox](https://catevika.github.io/lightbox)** in your favorite browser
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Enter a search term
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Click on any photo of your choice to enlarge it
 
-### Code Splitting
+Right-click and 'Save as' to download it on your device
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To go back to the main Gallery page, there are 3 options available:
 
-### Analyzing the Bundle Size
+- click the X button
+- click outside of the photo
+- press ESC key
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Navigate to About and Contact pages to get more information about the developer
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Pull requests are welcome
 
-### Advanced Configuration
+1. fork this repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```
+   git clone https://github.com/Catevika/lightbox.git
+   ```
 
-### Deployment
+2. change your working directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```
+   cd <your working directory>
+   ```
 
-### `npm run build` fails to minify
+3. create your feature branch
+   ```
+   git checkout -b <your new feature name>
+   ```
+4. to start working on the created branch
+   ```
+   npm install
+   npm start
+   ```
+5. commit your changes
+   ```
+   git commit -am 'Add some new feature'
+   ```
+6. Push to the branch
+   ```
+   git push origin <your new feature name>
+   ```
+7. create a new Pull Request with a simple description
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Do not hesitate to ask questions, send issues or report bugs if any
+
+Do not forget to ⭐ this project if you like it. Thank you!
+
+## Credits
+
+- **[Pixabay](https://pixabay.com/)**
+
+- **Github icon** created by [Pixel perfect](https://www.flaticon.com/authors/pixel-perfect) from [Flaticon.com](https://www.flaticon.com/)
+
+- **Twitter icon** created by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon.com](https://www.flaticon.com/)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/) &copy; [Dominique Bello](https://twitter.com/dominique_bello) aka Catevika
