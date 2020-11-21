@@ -1,6 +1,6 @@
 ## Pixabay Photo Search Gallery <!-- omit in toc -->
 
-![Pixabay Photo Search Gallery screenshot](./src/assets\screenshot.png)
+![Pixabay Photo Search Gallery screenshot](./src/assets/screenshot.png)
 
 ## Table of Content <!-- omit in toc -->
 
