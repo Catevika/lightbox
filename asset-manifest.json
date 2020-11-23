@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/lightbox/static/css/main.c60e5a38.chunk.css",
-    "main.js": "/lightbox/static/js/main.4aa1e032.chunk.js",
-    "main.js.map": "/lightbox/static/js/main.4aa1e032.chunk.js.map",
+    "main.css": "/lightbox/static/css/main.04dfee1e.chunk.css",
+    "main.js": "/lightbox/static/js/main.cad42dbe.chunk.js",
+    "main.js.map": "/lightbox/static/js/main.cad42dbe.chunk.js.map",
     "runtime-main.js": "/lightbox/static/js/runtime-main.d1cd01dc.js",
     "runtime-main.js.map": "/lightbox/static/js/runtime-main.d1cd01dc.js.map",
-    "static/js/2.7f12006a.chunk.js": "/lightbox/static/js/2.7f12006a.chunk.js",
-    "static/js/2.7f12006a.chunk.js.map": "/lightbox/static/js/2.7f12006a.chunk.js.map",
+    "static/js/2.70c72f5f.chunk.js": "/lightbox/static/js/2.70c72f5f.chunk.js",
+    "static/js/2.70c72f5f.chunk.js.map": "/lightbox/static/js/2.70c72f5f.chunk.js.map",
     "static/js/3.1011da63.chunk.js": "/lightbox/static/js/3.1011da63.chunk.js",
     "static/js/3.1011da63.chunk.js.map": "/lightbox/static/js/3.1011da63.chunk.js.map",
     "index.html": "/lightbox/index.html",
-    "static/css/main.c60e5a38.chunk.css.map": "/lightbox/static/css/main.c60e5a38.chunk.css.map",
-    "static/js/2.7f12006a.chunk.js.LICENSE.txt": "/lightbox/static/js/2.7f12006a.chunk.js.LICENSE.txt",
+    "static/css/main.04dfee1e.chunk.css.map": "/lightbox/static/css/main.04dfee1e.chunk.css.map",
+    "static/js/2.70c72f5f.chunk.js.LICENSE.txt": "/lightbox/static/js/2.70c72f5f.chunk.js.LICENSE.txt",
+    "static/media/france.40c79af5.svg": "/lightbox/static/media/france.40c79af5.svg",
+    "static/media/github.81f9edee.svg": "/lightbox/static/media/github.81f9edee.svg",
+    "static/media/italy.2b31e5a9.svg": "/lightbox/static/media/italy.2b31e5a9.svg",
+    "static/media/logo.a8726bba.png": "/lightbox/static/media/logo.a8726bba.png",
+    "static/media/twitter.16ec4858.svg": "/lightbox/static/media/twitter.16ec4858.svg",
+    "static/media/united-kingdom.2d19fed4.svg": "/lightbox/static/media/united-kingdom.2d19fed4.svg",
     "static/media/uparrow.1a7f59ad.svg": "/lightbox/static/media/uparrow.1a7f59ad.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d1cd01dc.js",
-    "static/js/2.7f12006a.chunk.js",
-    "static/css/main.c60e5a38.chunk.css",
-    "static/js/main.4aa1e032.chunk.js"
+    "static/js/2.70c72f5f.chunk.js",
+    "static/css/main.04dfee1e.chunk.css",
+    "static/js/main.cad42dbe.chunk.js"
   ]
 }
