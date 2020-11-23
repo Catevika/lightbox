@@ -10,6 +10,7 @@
 .image-max {
 	margin-top: 4.5rem;
 	height: 85vh;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (max-width: 768px) {
