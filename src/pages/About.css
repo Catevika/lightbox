@@ -1,48 +1,47 @@
 .about-container {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgb(218, 218, 218);
 	width: 100vw;
 	height: 100vh;
-	background-color: rgb(218, 218, 218);
-	line-height: 2.5rem;
-	color: #333;
 }
 
-@media only screen and (max-width: 768px) {
-	.about-container {
-		display: block;
-		height: auto;
-	}
+.about-logo {
+	border-radius: 50%;
+	width: 30%;
+	margin: 5rem 0 1rem 1rem;
+}
+
+.about-card-container {
+	width: 60%;
+	font-size: 1.7rem;
+	color: #333;
+	margin: 5rem 1rem 1rem 0;
 }
 
 .about-card {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: #f7f7f7;
-	width: 45vw;
-	height: 85vh;
-	margin: 6rem auto 0;
+	width: 100%;
+}
+
+.about-card:first-child {
 	border-radius: 1rem;
+	background-color: rgba(221, 179, 101, 0.5);
+	padding: 1rem;
 }
 
-@media only screen and (max-width: 768px) {
-	.about-card {
-		display: block;
-		width: 95vw;
-		height: auto;
-	}
+.about-card:nth-child(2),
+.about-card:nth-child(3) {
+	font-size: 1.2rem;
+	margin-top: 2.5rem;
 }
 
-.about-header {
+.about-text {
 	font-weight: 400;
 	text-align: center;
-	margin: 1rem;
 }
 
-.about-header-span {
+.about-text-span {
 	font-weight: 700;
 }
 
@@ -55,48 +54,53 @@
 	column-rule: 4px double #5b4e8f;
 	-moz-column-break-inside: none;
 	break-inside: none;
-	font-size: 1.2rem;
 	margin-bottom: 1rem;
 }
 
+.about-text-link {
+	text-decoration: none;
+	font-family: 'Nunito Sans', sans-serif;
+	color: #342c52;
+	border-radius: 1rem;
+	font-weight: 700;
+}
+
+.about-li {
+	list-style: none;
+	text-align: center;
+	padding-right: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+	.about-card-container {
+		width: 90%;
+		font-size: 1.5rem;
+		margin: 2rem auto 1rem;
+	}
+
+	.about-container {
+		display: block;
+	}
+
+	.about-logo {
+		display: block;
+		margin: 5rem auto 0;
+	}
+}
+
 @media only screen and (max-width: 768px) {
+	.about-card-container {
+		margin: 5rem auto;
+	}
+
+	.about-logo {
+		display: none;
+	}
+
 	.about-ul {
 		-moz-column-count: 1;
 		column-count: 1;
 		-moz-column-rule: none;
 		column-rule: none;
-	}
-}
-
-.about-header-link,
-.about-paragraph-link {
-	text-decoration: none;
-	color: #5b4e8f;
-	font-weight: 900;
-}
-
-.about-li {
-	list-style: none;
-	padding-right: 1rem;
-}
-
-.collaboration {
-	text-align: center;
-}
-
-.big {
-	font-size: 3rem;
-	line-height: 4rem;
-}
-
-hr {
-	width: 30vw;
-	margin: 1rem;
-	border: 1px solid #5b4e8f;
-}
-
-@media only screen and (max-width: 768px) {
-	hr {
-		margin: 0 auto;
 	}
 }

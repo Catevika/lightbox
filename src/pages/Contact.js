@@ -8,6 +8,17 @@ import UkFlag from '../assets/united-kingdom.svg';
 const Contact = () => {
 	return (
 		<div className='contact-container'>
+			<div className='contact-card'>
+				<h1 className='about-header big collaboration'>
+					Looking for user friendly, functional and scalable apps / sites?
+				</h1>
+				<a
+					href='mailto:dominique.bello@outlook.fr'
+					className='about-paragraph-link about-header big collaboration'
+				>
+					Let's start collaborating!
+				</a>
+			</div>
 			<h1 className='contact-header'>
 				Contact me at:{' '}
 				<a href='mailto:dominique.bello@outlook.fr'>
