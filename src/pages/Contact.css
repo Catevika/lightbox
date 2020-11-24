@@ -60,6 +60,11 @@
 	margin-top: 2rem;
 }
 
+.contact-flags-container {
+	display: block;
+	margin: 0 auto;
+}
+
 .contact-main-container-footer {
 	display: flex;
 	flex-direction: column;

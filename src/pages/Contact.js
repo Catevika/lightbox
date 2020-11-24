@@ -50,35 +50,37 @@ const Contact = () => {
 				</div>
 				<div className='contact-card'>
 					<p className='contact-text flags'>I speak: </p>
-					<div className='contact-block'>
-						<img
-							className='contact-icon'
-							src={FrenchFlag}
-							alt='French flag'
-							height='32'
-							width='32'
-						/>
-						<p className='contact-text'>French</p>
-					</div>
-					<div className='contact-block'>
-						<img
-							className='contact-icon'
-							src={UkFlag}
-							alt='French flag'
-							height='32'
-							width='32'
-						/>
-						<p className='contact-text'>English</p>
-					</div>
-					<div className='contact-block'>
-						<img
-							className='contact-icon'
-							src={ItalianFlag}
-							alt='French flag'
-							height='32'
-							width='32'
-						/>
-						<p className='contact-text'>Italian</p>
+					<div className='contact-flags-container'>
+						<div className='contact-block'>
+							<img
+								className='contact-icon'
+								src={FrenchFlag}
+								alt='French flag'
+								height='32'
+								width='32'
+							/>
+							<p className='contact-text'>French</p>
+						</div>
+						<div className='contact-block'>
+							<img
+								className='contact-icon'
+								src={UkFlag}
+								alt='French flag'
+								height='32'
+								width='32'
+							/>
+							<p className='contact-text'>English</p>
+						</div>
+						<div className='contact-block'>
+							<img
+								className='contact-icon'
+								src={ItalianFlag}
+								alt='French flag'
+								height='32'
+								width='32'
+							/>
+							<p className='contact-text'>Italian</p>
+						</div>
 					</div>
 				</div>
 				<div className='contact-main-container-footer'>
