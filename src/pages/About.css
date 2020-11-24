@@ -15,7 +15,8 @@
 
 .about-card-container {
 	width: 60%;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
+	font-weight: 900;
 	color: #333;
 	margin: 5rem 1rem 1rem 0;
 }
@@ -33,7 +34,7 @@
 .about-card:nth-child(2),
 .about-card:nth-child(3) {
 	font-size: 1.2rem;
-	margin-top: 2.5rem;
+	margin-top: 5rem;
 }
 
 .about-text {

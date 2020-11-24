@@ -1,12 +1,77 @@
-.contact-container {
+.contact {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contact-main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	margin-top: 5em;
 }
 
-.contact-header {
-	font-size: 2rem;
+.contact-main-text {
+	font-size: 1.5rem;
+	margin-top: 1rem;
 }
 
-.big {
-	font-size: 2rem;
-	padding: 0.5rem 1rem;
+.contact-main-card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+.contact-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+.contact-block {
+	display: flex;
+	align-items: center;
+}
+
+.contact-text,
+.contact-link {
+	font-size: 1.5rem;
+	line-height: 3rem;
+	margin-left: 0.5rem;
+}
+
+.contact-link {
+	text-decoration: none;
+	font-weight: 700;
+	color: #333;
+}
+
+.contact-link:hover,
+.contact-link:visited {
+	text-decoration: none;
+	color: #5b4e8f;
+}
+
+.flags {
+	margin-top: 2rem;
+}
+
+.contact-main-container-footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2em;
+}
+
+.contact-footer {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	color: rgba(0, 0, 0, 0.7);
+	margin-top: 2rem;
 }

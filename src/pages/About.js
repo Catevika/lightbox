@@ -16,9 +16,11 @@ const About = () => {
 						!
 					</p>
 					<p className='about-text'>
-						I am a French Front-End Web developer, a coding woman changing
-						career after 20 years in Marketing as a Project Manager. I am living
-						near Paris, France with my Italian husband
+						I am a French{' '}
+						<span className='about-text-span'>Front-End Web developer</span>, a
+						coding woman entering the tech world after 20 years in Marketing as
+						a Project Manager. I am living near Paris, France with my Italian
+						husband
 					</p>
 				</div>
 				<div className='about-card'>
