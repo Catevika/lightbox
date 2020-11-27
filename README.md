@@ -37,6 +37,7 @@ Main implemented features
 Use of
 
 - **React** library
+- **Pixabay** [API](https://pixabay.com/fr/service/about/api/)
 - **Responsive Design** Media Queries
 
 ## Tech used
