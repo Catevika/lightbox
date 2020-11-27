@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	background-color: rgb(218, 218, 218);
+	background-color: var(--grey);
 	width: 100vw;
 	height: 100vh;
 }
@@ -15,9 +15,9 @@
 
 .about-card-container {
 	width: 60%;
-	font-size: 1.5rem;
+	font-size: var(--large-font-size);
 	font-weight: 900;
-	color: #333;
+	color: var(--dark-grey);
 	margin: 5rem 1rem 1rem 0;
 }
 
@@ -27,7 +27,7 @@
 
 .about-card:first-child {
 	border-radius: 1rem;
-	background-color: rgba(221, 179, 101, 0.5);
+	background-color: var(--light-gold);
 	padding: 1rem;
 }
 
@@ -38,12 +38,12 @@
 }
 
 .about-text {
-	font-weight: 400;
+	font-weight: var(--normal-font-weight);
 	text-align: center;
 }
 
 .about-text-span {
-	font-weight: 700;
+	font-weight: var(--bold-font-weight);
 }
 
 .about-ul {
@@ -51,8 +51,8 @@
 	column-count: 2;
 	-moz-column-gap: 0.5rem;
 	column-gap: 0.5rem;
-	-moz-column-rule: 4px double #5b4e8f;
-	column-rule: 4px double #5b4e8f;
+	-moz-column-rule: 4px double var(--light-purple);
+	column-rule: 4px double var(--light-purple);
 	-moz-column-break-inside: none;
 	break-inside: none;
 	margin-bottom: 1rem;
@@ -60,10 +60,10 @@
 
 .about-text-link {
 	text-decoration: none;
-	font-family: 'Nunito Sans', sans-serif;
-	color: #342c52;
+	font-family: var(--main-font-family);
+	color: var(--dark-purple);
 	border-radius: 1rem;
-	font-weight: 700;
+	font-weight: var(--bold-font-weight);
 }
 
 .about-li {
@@ -75,7 +75,7 @@
 @media only screen and (max-width: 1200px) {
 	.about-card-container {
 		width: 90%;
-		font-size: 1.5rem;
+		font-size: var(--large-font-size);
 		margin: 2rem auto 1rem;
 	}
 

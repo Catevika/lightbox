@@ -7,22 +7,22 @@
 	left: 0;
 	width: 100vw;
 	list-style-type: none;
-	font-size: 1.5rem;
+	font-size: var(--large-font-size);
 	margin: 0;
 	padding: 1rem;
 	overflow: hidden;
-	background-color: #333;
+	background-color: var(--dark-grey);
 }
 
 .navbar-link {
 	text-decoration: none;
-	font-family: 'Nunito Sans', sans-serif;
-	color: rgb(218, 218, 218);
+	font-family: var(--main-font-family);
+	color: var(--grey);
 }
 
 .current {
 	text-decoration: none;
-	font-family: 'Nunito Sans', sans-serif;
-	font-weight: 700;
-	color: rgb(221, 179, 101);
+	font-family: var(--main-font-family);
+	font-weight: var(--bold-font-weight);
+	color: var(--gold);
 }

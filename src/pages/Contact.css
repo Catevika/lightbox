@@ -13,7 +13,7 @@
 }
 
 .contact-main-text {
-	font-size: 1.5rem;
+	font-size: var(--large-font-size);
 	margin-top: 1rem;
 }
 
@@ -39,21 +39,21 @@
 
 .contact-text,
 .contact-link {
-	font-size: 1.5rem;
+	font-size: var(--large-font-size);
 	line-height: 3rem;
 	margin-left: 0.5rem;
 }
 
 .contact-link {
 	text-decoration: none;
-	font-weight: 700;
-	color: #333;
+	font-weight: var(--bold-font-weight);
+	color: var(--dark-grey);
 }
 
 .contact-link:hover,
 .contact-link:visited {
 	text-decoration: none;
-	color: #5b4e8f;
+	color: var(--light-purple);
 }
 
 .flags {
@@ -77,6 +77,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	color: rgba(0, 0, 0, 0.7);
+	color: var(--black-shadow);
 	margin-top: 2rem;
 }

@@ -1,6 +1,6 @@
 .search-paragraph {
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: var(--large-font-size);
 	margin: 5rem 0 1rem;
 }
 
@@ -9,8 +9,8 @@
 .search-pixabay-link:visited {
 	text-decoration: none;
 	cursor: pointer;
-	font-weight: 700;
-	color: #333;
+	font-weight: var(--bold-font-weight);
+	color: var(--dark-grey);
 }
 
 .search-form {
@@ -24,13 +24,13 @@
 }
 
 .search-input[placeholder] {
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: var(--main-font-family);
 	padding: 0.5rem 0 0.5rem 0.5rem;
 }
 
 .search-text,
 .button {
-	font-size: 1.5rem;
+	font-size: var(--large-font-size);
 	border: none;
 	padding: 0.5rem;
 }
@@ -40,7 +40,7 @@
 }
 
 .button {
-	background-color: white;
+	background-color: var(--white);
 	border-radius: 0 0.5rem 0.5rem 0;
 }
 
@@ -52,7 +52,7 @@
 @media only screen and (max-width: 768px) {
 	.search-text,
 	.button {
-		font-size: 1.5rem;
+		font-size: var(--large-font-size);
 	}
 
 	.search-icon {

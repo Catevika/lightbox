@@ -4,13 +4,13 @@
 	align-items: center;
 	width: 100vw;
 	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: var(--black-shadow);
 }
 
 .image-max {
 	margin-top: 4.5rem;
 	height: 85vh;
-	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 2px 2px var(--light-black-shadow);
 }
 
 @media only screen and (max-width: 768px) {
@@ -25,12 +25,12 @@
 	position: fixed;
 	top: 5rem;
 	left: 47.5%;
-	background-color: rgb(221, 179, 101);
-	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.4);
-	color: #f7f7f7;
+	background-color: var(--gold);
+	box-shadow: 0 10px 10px 0 var(--black-shadow);
+	color: var(--light-grey);
 	border-radius: 50%;
 	padding: 0.5rem 1rem;
 	cursor: pointer;
 	border: none;
-	font-size: 1.5rem;
+	font-size: var(--large-font-size);
 }
